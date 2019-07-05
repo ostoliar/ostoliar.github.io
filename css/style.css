@@ -496,26 +496,30 @@ cursor: pointer;
 .future_products__img {
     width: 100%;
     max-width: 1140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+    
     
   
 }
+
 .future_product_img_hide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px; 
-    height: 250px;
-    overflow: hidden;
+    display: block;
+    width: 277.5px; 
+    height: 200px;
+    margin-bottom: 10px;
+    
 
     
 }
 .future_product_img_hide img {
-    width: 300px; 
-    height: 250px;
-   object-fit: contain;
+    width: 277.5px; 
+    height: 200px;
+    
+  
+
   
     
   
