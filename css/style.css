@@ -339,11 +339,15 @@ text-shadow: 1px 1px;
     margin-bottom: 30px;
 
 }
+.get_in_touch__contacts {
+    display: flex;
+    flex-direction: column;
+}
 .get_in_touch__contacts h3 {
     opacity: 0.8;
     margin-bottom: 10px;
     color: white;
-    font-weight: 300%;
+    font-size: 250%;
     text-shadow: 2px 2px 4px #ff2d2d;
 }
 .get_in_touch__contacts:after {
@@ -495,23 +499,28 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
     
   
 }
 .future_product_img_hide {
-    display: block;
-    width: 300px; 
-    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.future_products__img img{
-    width: 100%;
-    height: auto;
+    width: 300px; 
+    height: 250px;
+    overflow: hidden;
+
     
 }
+.future_product_img_hide img {
+    width: 300px; 
+    height: 250px;
+   object-fit: contain;
+  
+    
+  
+}
+
 
 .get_in_touch_form {
     display: flex;
